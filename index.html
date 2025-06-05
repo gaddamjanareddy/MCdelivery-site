@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome link -->
+    <script
+      src="https://kit.fontawesome.com/0ead1d0746.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MCdelivery</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <!-- left-navbar-section -->
+      <div class="left-nav">
+        <!-- logo-container -->
+        <div class="logo-container">
+          <button class="logo">
+            <img
+              src="./assets/nav-img/McDeliveryLogo.png"
+              alt="logo"
+              class="logo-img"
+              id="logo-img"
+            />
+          </button>
+        </div>
+
+        <!-- mcdelivery-container-drop-down-->
+        <div class="nav-boxes-container">
+          <div class="dropdown">
+            <button class="dropbtn" id="dropdownBtn">
+              <img
+                src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-delivery-active.svg"
+                alt="scooty"
+                class="scooty-img"
+              />
+              <h4>McDelivery</h4>
+              <i class="fa-solid fa-angle-down" id="arrowIcon"></i>
+            </button>
+
+            <div class="dropdown-content" id="dropdownMenu">
+              <a href="#">
+                <div class="dropdown-content-boxes">
+                  <img
+                    src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-dine-in.svg"
+                    alt=""
+                    class="drop-down-img"
+                  />
+                  <p>Dine-In</p>
+                </div>
+              </a>
+              <a href="#">
+                <div class="dropdown-content-boxes">
+                  <img
+                    src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-otg.svg"
+                    alt=""
+                    class="drop-down-img"
+                  />
+                  <p>On-The-Go</p>
+                </div>
+              </a>
+
+              <a href="#">
+                <div class="dropdown-content-boxes">
+                  <img
+                    src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-delivery.svg"
+                    alt=""
+                    class="drop-down-img"
+                  />
+                  <p>Take Away</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- address-container -->
+
+          <div class="address-container">
+            <button class="address-btn" id="address-dropdownBtn">
+              <!-- left-address -->
+              <div class="left-address">
+                <!-- upper-address -->
+                <div class="upper-address">
+                  <img
+                    src="./assets/nav-img/goldenArches.png"
+                    alt="m-logo"
+                    id="m-logo"
+                  />
+                  <h4 class="hyderabad">Hyderabad</h4>
+                  <p class="location-text">, JNTUH Metro St ...</p>
+                  <i class="fa-solid fa-angle-down" id="address-arrowIcon"></i>
+                </div>
+
+                <!-- lower-address -->
+                <div class="lower-address">
+                  <p>please enter your location so we can ...</p>
+                </div>
+              </div>
+              <!-- right-address -->
+              <div class="now">
+                <img
+                  src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/time-circle.svg"
+                  alt="clock"
+                  id="clock"
+                />
+                <p>Now</p>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- right-navbar-section -->
+
+      <div class="right-nav">
+        <h3>Offers</h3>
+        <h3>Restaurants Nearby</h3>
+        <img
+          src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/account.svg"
+          alt=""
+          id="account-icon"
+        />
+        <img
+          src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/cart-outline-1.svg"
+          alt=""
+          id="cart-icon"
+        />
+        <img
+          src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/search-b.svg"
+          alt=""
+          id="search-icon"
+        />
+      </div>
+    </nav>
+
+    <!-- responsive code for the nav buttons -->
+    <nav class="responsive-nav">
+      <div class="eating-mode-container">
+        <button class="res-mcdelivery-img" id="res-mcdelivery-img">
+          <img
+            src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-delivery.svg"
+            alt="scooty"
+            class="res-container-img"/>
+        </button>
+        <h6 class="res-mc-title">McDelivery</h6>
+      </div>
+
+      <div class="eating-mode-container">
+        <button class="res-mcdelivery-img" id="res-mcdelivery-img">
+          <img
+            src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-dine-in.svg"
+            alt="scooty"
+            class="res-container-img"/>
+        </button>
+        <h6 class="res-mc-title">Dine-In</h6>
+      </div>
+
+      <div class="eating-mode-container">
+        <button class="res-mcdelivery-img" id="res-mcdelivery-img">
+          <img
+            src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-otg.svg"
+            alt="scooty"
+            class="res-container-img"/>
+        </button>
+        <h6 class="res-mc-title">On The Go</h6>
+      </div>
+
+      <div class="eating-mode-container">
+        <button class="res-mcdelivery-img" id="res-mcdelivery-img">
+          <img
+            src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/bm-delivery.svg"
+            alt="scooty"
+            class="res-container-img"/>
+        </button>
+        <h6 class="res-mc-title">Take Away</h6>
+      </div>
+    </nav>
+    
+
+    <!-- main section -->
+    <div class="main-content">
+      <!-- hero-section -->
+      <div class="hero-section">
+        <!-- carousels -->
+        <div class="carousels-container">
+          <div class="carousels-content">
+            <div class="yellow-container"></div>
+
+            <div class="slides">
+              <div class="slide" id="slide1">
+                <img
+                  src="./assets/corrosial-img/new_resize_2572_20250218134659150573.png"
+                  alt="slide1"
+                  class="slide-img"
+                  id="slide-img1"
+                />
+              </div>
+
+              <div class="slide" id="slide2">
+                <img
+                  src="./assets/corrosial-img/new_resize_2572_20240918083906793225.png"
+                  alt="slide2"
+                  class="slide-img"
+                  id="slide-img2"
+                />
+              </div>
+
+              <div class="slide" id="slide3">
+                <img
+                  src="./assets/corrosial-img/new_resize_2572_20240702155711422610.png"
+                  alt="slide3"
+                  class="slide-img"
+                  id="slide-img3"
+                />
+              </div>
+            </div>
+
+            <div class="preview-boxes-container">
+              <div class="preview-boxes">
+                <button class="slide-btn" id="slide1-btn">
+                  <img
+                    src="./assets/corrosial-img/new_resize_2572_20250218134659150573.png"
+                    alt="slide1"
+                    class="slide-img"
+                    id="slide-img1"
+                  />
+                </button>
+                <button class="slide-btn" id="slide2-btn">
+                  <img
+                    src="./assets/corrosial-img/new_resize_2572_20240918083906793225.png"
+                    alt="slide2"
+                    class="slide-img"
+                    id="slide-img2"
+                  />
+                </button>
+                <button class="slide-btn" id="slide3-btn">
+                  <img
+                    src="./assets/corrosial-img/new_resize_2572_20240702155711422610.png"
+                    alt="slide3"
+                    class="slide-img"
+                    id="slide-img3"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- our-menu -->
+        <div class="ourmenu-container">
+          <div class="ourmenu-left">
+            <h1 class="ourmenu-heading">Our Menu</h1>
+            <div class="ourmenu-btns">
+              <button class="ourmenu-btn">
+                <img
+                  src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/deal.svg"
+                  alt=""
+                />For You
+              </button>
+
+              <button class="ourmenu-btn">
+                <img
+                  src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/trending.svg"
+                  alt=""
+                />Deals
+              </button>
+
+              <button class="ourmenu-btn">
+                <img
+                  src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/new-launch.svg"
+                  alt=""
+                />New Launch
+              </button>
+            </div>
+          </div>
+
+          <div class="ourmenu-right">
+            <div class="searchbar-container">
+              <input
+                type="text"
+                placeholder="Search here"
+                class="searchbar"
+                id="searchbar"
+              />
+              <img
+                src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/images/search.svg"
+                alt="search-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- hero-end -->
+
+      <!-- food-section -->
+      <div class="food-container">
+        <div class="food-content">
+          <!-- food-content-left -->
+          <div class="food-content-left">
+            <div class="food-types-conatiner">
+              <!-- 1 -->
+              <div class="menu-type" id="menu199-container">
+                <div class="type-img">
+                  <img
+                    src="./assets/menu199-img/new_resize_90_20240522134734169542.png"
+                    alt=""
+                    class="foodtype-img"
+                  />
+                </div>
+
+                <div class="type-text">
+                  <h4 class="food-type" id="menu199">Menu @199</h4>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="menu-type" id="korean-container">
+                <div class="type-img">
+                  <img
+                    src="./assets/korean-img/new_resize_90_20250318192158717536.jpg"
+                    alt=""
+                    class="foodtype-img"
+                  />
+                </div>
+
+                <div class="type-text">
+                  <h4 class="food-type" id="korean">
+                    Korean Range & New Offerings
+                  </h4>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="menu-type" id="burgers-container">
+                <div class="type-img">
+                  <img
+                    src="./assets/burger-img/new_resize_90_170955171681248.png"
+                    alt=""
+                    class="foodtype-img"
+                  />
+                </div>
+
+                <div class="type-text">
+                  <h4 class="food-type" id="burgers">Burgers & Wraps</h4>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="menu-type" id="fries-container">
+                <div class="type-img">
+                  <img
+                    src="./assets/korean-img/new_resize_90_1709551827742126.png"
+                    alt=""
+                    class="foodtype-img"
+                  />
+                </div>
+
+                <div class="type-text">
+                  <h4 class="food-type" id="fries">Fries & Sides</h4>
+                </div>
+              </div>
+
+              <!-- 5 -->
+              <div class="menu-type" id="coffee-container">
+                <div class="type-img">
+                  <img
+                    src="./assets/coffee-img/new_resize_90_1709551762235584.png"
+                    alt=""
+                    class="foodtype-img"
+                  />
+                </div>
+
+                <div class="type-text">
+                  <h4 class="food-type" id="coffee">
+                    Coffee & Beverages (Hot and Cold)
+                  </h4>
+                </div>
+              </div>
+
+              <!-- 6 -->
+              <div class="menu-type" id="cakes-container">
+                <div class="type-img">
+                  <img
+                    src="./assets/cakes-img/new_resize_90_20240503094824231560.png"
+                    alt=""
+                    class="foodtype-img"
+                  />
+                </div>
+
+                <div class="type-text">
+                  <h4 class="food-type" id="cakes">
+                    Cakes Brownies and Cookies
+                  </h4>
+                </div>
+              </div>
+
+              <!-- 7 -->
+              <div class="menu-type" id="desserts-container">
+                <div class="type-img">
+                  <img
+                    src="./assets/desserts-img/new_resize_90_1709551788552933.png"
+                    alt=""
+                    class="foodtype-img"
+                  />
+                </div>
+
+                <div class="type-text">
+                  <h4 class="food-type" id="desserts">Desserts</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- food content middle -->
+          <div class="food-content-middle" id="food-content-middle">
+            <div class="headings-container">
+              <h1 class="heading" id="heading"></h1>
+
+              <div class="foodtype-btns">
+                <button class="foodtype-btn" id="veg-btn" style="display: none">
+                  Veg
+                </button>
+                <button
+                  class="foodtype-btn"
+                  id="non-veg-btn"
+                  style="display: none"
+                >
+                  Non-Veg
+                </button>
+              </div>
+            </div>
+
+            <div id="cards-container" class="cards-container"></div>
+          </div>
+
+          <!-- food content right -->
+          <div class="food-content-right">
+            <div class="addtocart-container">
+              <h3 class="your-cart">Your Cart</h3>
+              <div class="addtocart-content" id="addtocart-content">
+                <div class="empty-cart-content" id="empty-cart-content">
+                  <img
+                    src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/empty-cart.svg"
+                    alt=""
+                  />
+                  <h3>
+                    Oops! Your cart is empty. You haven’t placed any order yet.
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- main-ending -->
+    </div>
+
+    <!-- footer -->
+
+    <footer>
+      <!-- about-container -->
+
+      <div class="about-container">
+        <div class="about-content">
+          <h2>McDelivery India – Order Food Online</h2>
+
+          <div class="about-para">
+            <p id="about-para1">
+              Waiting to sink your teeth into just about anything from the
+              McDonald’s food menu? Well, whatever the excuse, there is just one
+              thing to do, and that is to order food online from the McDelivery
+              website or the McDelivery app! We are without a doubt one of the
+              most popular fast-food restaurants in the country, satiating
+              people’s hunger and cravings and bringing a smile on their faces.
+              And we are proud to say that we have been at it since about 25
+              years now! Isn’t that something?
+            </p>
+          </div>
+
+          <div class="about-para">
+            <p id="about-para2">
+              When at McDonald’s, we have you covered with delicious items that
+              are absolute value for money. Whether it is for breakfast, lunch,
+              dinner or just a snack in-between your online meetings or classes,
+              we have something for everyone, kids, and grown-ups alike. What’s
+              not to love about that? The deliciousness that is the McDonald’s
+              food menu has an incredibly wide variety of both vegetarian and
+              non-vegetarian options, mouth-watering value meals and gourmet
+              meals, burgers and wraps, choicest of desserts and beverages, all
+              of which can match with any level of hunger pangs. So, bring it
+              on!
+            </p>
+          </div>
+
+          <div class="about-para">
+            <p id="about-para2">
+              Unlike many other food delivery websites, we at McDonalds’s have
+              made ordering food online an experience that can be best described
+              as - easy-peasy. Here’s how you go about it- select the food you
+              crave, next step is to take your pick from the choice of add-ons,
+              drink, side and dessert. Then add to cart, choose mode of payment
+              and voila, you have placed your fast-food order online and your
+              McDonald’s food is on its way! You can also track your order as it
+              comes to you.
+            </p>
+          </div>
+
+          <div class="about-para">
+            <p id="about-para3">
+              Online food delivery is a whole new way to love McDonald’s. So,
+              what are you waiting for? It’s McDonald’s o’clock! Order your meal
+              now and allow us to do what we love doing - delivering happiness.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- download-app-container -->
+
+      <div class="download-app-container">
+        <div class="download-app-content">
+          <div class="scanner-container">
+            <div class="scanner-img">
+              <img
+                src="https://hrpl-production-mds-assets.s3.ap-south-1.amazonaws.com/icons/qr-code.svg"
+                alt=""
+                id="scanner-icon"
+              />
+            </div>
+
+            <div class="click-scanner">
+              <h4>CLICK ON QR CODE TO</h4>
+              <h4>ENLARGE.</h4>
+            </div>
+          </div>
+
+          <div class="download-app-text">
+            <div class="download-app-top-text">
+              <h3 class="discover">DISCOVER WITH US</h3>
+              <div class="download-app-middle-text">
+                <p>Tell us about your experience.</p>
+                <p>Scan this QR code to discover more with us.</p>
+              </div>
+            </div>
+
+            <div class="download-btn-container">
+              <button class="download-btn">Download the app</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- copyright container -->
+      <div class="copyright-container">
+        <div class="copyright-text">
+          <div class="copyright-top">
+            <p>Privacy Policy</p>
+            <p>| Terms & Conditions</p>
+            <p>| Corporate Website</p>
+            <p>| Faq</p>
+            <p>| Bug Bounty</p>
+            <p>| Site Map</p>
+            <p>| Veg Burgers</p>
+            <p>| Non Veg Burgers</p>
+            <p>| Nutrition Info</p>
+            <p>| All Restaurants</p>
+          </div>
+
+          <div class="copyright-bottom">
+            <p class="copyright-para" id="copyright-para1">
+              An Average active adult requires 2,000 Kcal energy per day,
+              however, calorie needs may vary.
+            </p>
+            <p class="copyright-para" id="copyright-para2">
+              FSSAI Central License Number : 10014022002648
+            </p>
+            <h4 id="copyright-para3">Copyright 2025 H.R.P.L</h4>
+          </div>
+        </div>
+
+        <div class="socialmediaicons-container">
+          <span><i class="fa-brands fa-facebook fa-xl"></i></span>
+          <span><i class="fa-brands fa-instagram fa-xl"></i></span>
+          <span><i class="fa-brands fa-x-twitter fa-xl"></i></span>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

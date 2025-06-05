@@ -1,0 +1,415 @@
+[
+  [
+    {
+      "headings": "Menu199"
+    },
+    {
+      "items": [
+        {
+          "id": 1,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312131246384288.png",
+          "title": "Korean Chicken Surprise Burger + Korean Yuzu-Pop Sprite",
+          "description": "Korean Chicken Surprise, where a crispy chicken patty meets delicious Gochujang sauce, crunchy lettuce, and soft, toasted buns with a refreshing Korean Yuzu Pop",
+          "price": "₹186",
+          "button": "Add +"
+        },
+        {
+          "id": 2,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312132701932019.png",
+          "title": "Korean Mc Egg Burger Combo (M)",
+          "description": "Egg-cellent news! Our Korean McEgg is here, packed with a steamed egg patty, delicious Gochujang sauce, and crunchy lettuce with fries (M ) and beverage of your choice ( M)",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 3,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312151448387655.png",
+          "title": "Korean Mc Spicy Paneer Burger",
+          "description": "Taste the magic of Korea and India united: our Korean McSpicy Paneer is a mouthwatering blend of spicy paneer patty, delicious Gochujang sauce, lettuce, and sesame seeded buns.",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 4,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312145624070543.png",
+          "title": "Korean Mc Spicy Chicken Burger",
+          "description": "Get ready for a flavor explosion! Try our Korean McSpicy Chicken, featuring the iconic spicy chicken patty, Gochujang sauce, and fresh lettuce between sesame seeded bun",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 5,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312131012198821.png",
+          "title": "Korean Chicken Surprise + Korean Shake Shake Fries (M)",
+          "description": "A special korean spicy combo with your favourite fries and our Korean spice mix with the irresistible Korean Chicken Surprise",
+          "price": "₹210",
+          "button": "Add +"
+        },
+        {
+          "id": 6,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_1710178758134952.png",
+          "title": "McVeggie Burger Combo",
+          "description": "Enjoy a combo of McVeggie + Fries (M) + Drink of your Choice in a new, delivery friendly, resuable bottle.",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 7,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_1700493800194165.png",
+          "title": "McAloo Tikki Burger Combo",
+          "description": "Enjoy a delicious combo of McAloo Tikki Burger + Fries (M) + Beverage of your choice in a new, delivery friendly, reusable bottle.",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 8,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250407124332728266.png",
+          "title": "2 McVeggie Burger",
+          "description": "A delectable patty filled with potatoes, peas, carrots and tasty Indian spices. Topped with crispy lettuce, mayonnaise, and packed into toasted sesame buns makes our iconic McVeggie.",
+          "price": "₹199",
+          "button": "Add +"
+        }
+      ]
+    }
+  ],
+
+  [
+    {
+      "headings": "Korean Range & New Offerings"
+    },
+    {
+      "items": [
+        {
+          "id": 9,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312145504441176.png",
+          "title": "Korean Mc Spicy Chicken Burger Combo (M)",
+          "description": "Get ready for a flavor explosion! Try our Korean McSpicy Chicken, featuring the iconic spicy chicken patty, spicy Gochujang sauce, and fresh lettuce with fries ( M) and beverage of your choice ( M)",
+          "price": "₹372",
+          "button": "Add +"
+        },
+        {
+          "id": 10,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312151637904592.png",
+          "title": "Korean Mc Spicy Premium Chicken Burger Combo (M)",
+          "description": "Elevate your burger game with our Korean McSpicy Premium Chicken, featuring a spicy chicken patty, steamed egg patty, crunchy lettuce, melted cheese, and a bold duo of spicy Gochujang and creamy cheese sauces with fries (M) & beverage of your choice (M)",
+          "price": "₹440",
+          "button": "Add +"
+        },
+        {
+          "id": 11,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312145624070543.png",
+          "title": "Korean Mc Spicy Chicken Burger",
+          "description": "Get ready for a flavor explosion! Try our Korean McSpicy Chicken, featuring the iconic spicy chicken patty, Gochujang sauce, and fresh lettuce between sesame seeded bun",
+          "price": "₹244",
+          "button": "Add +"
+        },
+        {
+          "id": 12,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250313152127305416.png",
+          "title": "Minecraft Movie Meal - Pizza McPuff",
+          "description": "Grab the limited-edition Minecraft Combo with your favourite Pizza Puff + (M) Fries + Coke + New Nether Flame Dip + 1 collectible card!",
+          "price": "₹259",
+          "button": "Add +"
+        },
+        {
+          "id": 13,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312152431054382.png",
+          "title": "Korean Yuzu-Pop Sprite",
+          "description": "Fall in love with the taste of Korea with our Korean Yuzu-pop, a bold and citrusy spin on the classic Sprite, infused with the vibrant flavors of Korea.",
+          "price": "₹105",
+          "button": "Add +"
+        },
+        {
+          "id": 14,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250407125127793468.png",
+          "title": "Mc Crispy Chicken Burger + McChicken Burger + Fries (M)",
+          "description": "Feel the crunch with McCrispy Chicken Burger+ McChicken + Fries (M)",
+          "price": "₹430",
+          "button": "Add +"
+        }
+      ]
+    }
+  ],
+
+  [
+    {
+      "headings": "Burgers & Wraps"
+    },
+    {
+      "items": [
+        {
+          "id": 15,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312151834057559.png",
+          "title": "Korean Mc Spicy Premium Paneer Burger",
+          "description": "Discover a veg delight like no other with our Korean McSpicy Premium Veg, combining a wholesome spicy paneer patty, crunchy lettuce, cheese slice, spicy Gochujang sauce and cheese sauce blend.",
+          "price": "₹313",
+          "button": "Add +"
+        },
+        {
+          "id": 16,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312151659524544.png",
+          "title": "Korean Mc Spicy Premium Chicken Burger",
+          "description": "Elevate your burger game with our Korean McSpicy Premium Chicken, featuring a spicy chicken patty, steamed egg patty, crunchy lettuce, melted cheese, and a bold duo of spicy Gochujang and creamy cheese sauces",
+          "price": "₹313",
+          "button": "Add +"
+        },
+        {
+          "id": 17,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312151448387655.png",
+          "title": "Korean Mc Spicy Paneer Burger",
+          "description": "Taste the magic of Korea and India united: our Korean McSpicy Paneer is a mouthwatering blend of spicy paneer patty, delicious Gochujang sauce, lettuce, and sesame seeded buns.",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 18,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312145624070543.png",
+          "title": "Korean Mc Spicy Chicken Burger",
+          "description": "Get ready for a flavor explosion! Try our Korean McSpicy Chicken, featuring the iconic spicy chicken patty, Gochujang sauce, and fresh lettuce between sesame seeded bun",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 19,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312132743291346.png",
+          "title": "Korean Mc Egg Burger",
+          "description": "Egg-cellent news! Our Korean McEgg is here, packed with a steamed egg patty, spicy Gochujang sauce, and crunchy lettuce on a toasted bun",
+          "price": "₹87",
+          "button": "Add +"
+        },
+        {
+          "id": 20,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312131441710400.png",
+          "title": "Korean Chicken Surprise Burger",
+          "description": "Introducing a taste sensation like no other: the Korean Chicken Surprise, where a crispy chicken patty meets delicious Gochujang sauce, crunchy lettuce, and soft, toasted buns",
+          "price": "₹91",
+          "button": "Add +"
+        },
+        {
+          "id": 21,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20241025110121066884.png",
+          "title": "McAloo Tikki Burger with Cheese",
+          "description": "Savor the classic McAloo Tikki Burger, with an add-on cheese slice for a cheesy indulgence",
+          "price": "₹99",
+          "button": "Add +"
+        },
+        {
+          "id": 22,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250407124740917586.png",
+          "title": "Crispy Veggie Burger",
+          "description": "A flavorful patty made with a blend of 7 premium veggies, topped with zesty cocktail sauce, all served between soft, premium buns. Perfectly satisfying and full of flavor.",
+          "price": "₹199",
+          "button": "Add +"
+        }
+      ]
+    }
+  ],
+
+  [
+    {
+      "headings": "Fries & Sides"
+    },
+    {
+      "items": [
+        {
+          "id": 23,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250313152238133507.png",
+          "title": "Nether Flame Sauce",
+          "description": "Condiment Nether Flame Dip",
+          "price": "₹35",
+          "button": "Add +"
+        },
+        {
+          "id": 24,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312152019892364.png",
+          "title": "Korean Shake Shake Chicken Nuggets 6 pc",
+          "description": "Add a korean spicy twist to your favourite Chicken McNuggets with our Korean spice mix for an unbeatable flavour combination",
+          "price": "₹200",
+          "button": "Add +"
+        },
+        {
+          "id": 25,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312152150214731.png",
+          "title": "Korean Shake Shake Fries (M)",
+          "description": "Add a korean spicy twist to your favourite fries with our Korean spice mix for an unbeatable flavour combination",
+          "price": "₹129",
+          "button": "Add +"
+        },
+        {
+          "id": 26,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312152332281540.png",
+          "title": "Korean Spice Mix",
+          "description": "Add a spicy spark to your order with our Korean Spice Mix, perfectly pairing with Fries and Chicken McNuggets for an unbeatable flavor combination",
+          "price": "₹29",
+          "button": "Add +"
+        },
+        {
+          "id": 27,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_NPCNGT-2056-1-2056.png",
+          "title": "9 Pc Chicken Nuggets",
+          "description": "9 pieces of our iconic crispy, golden fried Chicken McNuggets!",
+          "price": "₹199",
+          "button": "Add +"
+        },
+        {
+          "id": 28,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_LFRIES-59-1-59.png",
+          "title": "Fries (Large)",
+          "description": "World Famous Fries, crispy, golden, lightly salted and fried to perfection! Also known as happiness.",
+          "price": "₹142",
+          "button": "Add +"
+        }
+      ]
+    }
+  ],
+
+  [
+    {
+      "headings": "Coffee & Beverages (Hot and Cold)"
+    },
+    {
+      "items": [
+        {
+          "id": 29,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250312152431054382.png",
+          "title": "Korean Yuzu-Pop Sprite",
+          "description": "Fall in love with the taste of Korea with our Korean Yuzu-pop, a bold and citrusy spin on the classic Sprite, infused with the vibrant flavors of Korea.",
+          "price": "₹105",
+          "button": "Add +"
+        },
+        {
+          "id": 30,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20240718174851491808.png",
+          "title": "Iced Coffee with French Vanilla",
+          "description": "An ideal choice for those who enjoy a smooth, creamy vanilla twist to their iced coffee, providing a satisfying and refreshing pick-me-up",
+          "price": "₹229",
+          "button": "Add +"
+        },
+        {
+          "id": 31,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20240718174730680750.png",
+          "title": "Classic Coffee Regular with French Vanilla",
+          "description": "a delightful and refreshing beverage that blends into the smooth, creamy essence of vanilla with the invigorating taste of chilled coffee.",
+          "price": "₹237",
+          "button": "Add +"
+        },
+        {
+          "id": 32,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20240718174706327775.png",
+          "title": "Cappuccino Small with French Vanilla",
+          "description": "A popular coffee beverage that combines the smooth, creamy flavor of vanilla with the robust taste of espresso",
+          "price": "₹195",
+          "button": "Add +"
+        },
+        {
+          "id": 33,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_171017698015856.png",
+          "title": "Latte Coffee (S)",
+          "description": "A classic combination of the signature McCafe espresso, smooth milk, steamed and froth",
+          "price": "₹178",
+          "button": "Add +"
+        },
+        {
+          "id": 34,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_1695835408295451.png",
+          "title": "Mocha Coffee (R)",
+          "description": "A delight of ground Arabica espresso, chocolate syrup and steamed milk",
+          "price": "₹242",
+          "button": "Add +"
+        }
+      ]
+    }
+  ],
+
+  [
+    {
+      "headings": "Cakes Brownies and Cookies"
+    },
+    {
+      "items": [
+        {
+          "id": 35,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_CCMNEW-3673-1-3673.png",
+          "title": "Chocochip Muffin",
+          "description": "Enjoy a dense chocochip muffin, with melty chocolate chips for a choco-lover's delight",
+          "price": "₹142",
+          "button": "Add +"
+        },
+        {
+          "id": 36,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_1689606336238061.png",
+          "title": "Choco Crunch Cookie",
+          "description": "Grab the choco crunch cookies packed with chocolate chips for the perfect crunch",
+          "price": "₹95",
+          "button": "Add +"
+        },
+        {
+          "id": 37,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20250415123624704507.png",
+          "title": "Butter Croissant",
+          "description": "Buttery, flaky croissant baked to golden perfection.Light, airy layers with a crisp outer shell.A classic French treat that melts in your mouth.",
+          "price": "₹139",
+          "button": "Add +"
+        }
+      ]
+    }
+  ],
+
+  [
+    {
+      "headings": "Desserts"
+    },
+    {
+      "items": [
+        {
+          "id": 38,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_20240619115300111279.png",
+          "title": "MangoBurst McFlurry with Oreo (M)",
+          "description": "Level up your Oreo McFlurry with a Mango flavoured twist! Does not contain fruit. Contains natural colour.",
+          "price": "₹132",
+          "button": "Add +"
+        },
+        {
+          "id": 39,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_NMFGS-5-1-5.png",
+          "title": "Hot Fudge Sundae",
+          "description": "A sinful delight, soft serve topped with delicious, gooey hot chocolate fudge. Always grab an extra spoon.",
+          "price": "₹66",
+          "button": "Add +"
+        },
+        {
+          "id": 40,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_RBLKFR-2803-1-2803.png",
+          "title": "Black Forest McFlurry Medium",
+          "description": "A sweet treat to suit your every mood",
+          "price": "₹139",
+          "button": "Add +"
+        },
+        {
+          "id": 41,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_FLOREO-3-1-3.png",
+          "title": "McFlurry Oreo ( M )",
+          "description": "Delicious soft serve meets crumbled oreo cookies, a match made in dessert heaven. Share it, if you can.",
+          "price": "₹129",
+          "button": "Add +"
+        },
+        {
+          "id": 42,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_NMSTR-421-1-421.png",
+          "title": "Strawberry Sundae",
+          "description": "The cool vanilla soft serve ice cream with twirls of strawberry syrup.",
+          "price": "₹66",
+          "button": "Add +"
+        },
+        {
+          "id": 43,
+          "image": "https://d37byfojjwz7vp.cloudfront.net/new_resize_456_BRWMSS-9-1-9.png",
+          "title": "Hot Fudge Brownie Sundae",
+          "description": "Luscious chocolate brownie and hot-chocolate fudge to sweeten your day",
+          "price": "₹139",
+          "button": "Add +"
+        }
+      ]
+    }
+  ]
+]
