@@ -61,7 +61,6 @@ fetch("items.json")
 
 
 //search bar
-// Add this code inside your script.js, ideally after the Allproducts data is loaded
 const searchBar = document.getElementById('searchbar');
 
 searchBar.addEventListener('input', () => {
