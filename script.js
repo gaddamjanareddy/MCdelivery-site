@@ -59,6 +59,29 @@ fetch("items.json")
     console.error("Error loading JSON:", error);
   });
 
+
+//search bar
+// Add this code inside your script.js, ideally after the Allproducts data is loaded
+const searchBar = document.getElementById('searchbar');
+
+searchBar.addEventListener('input', () => {
+    const searchTerm = searchBar.value.toLowerCase();
+    const allCards = document.querySelectorAll('.card-container');
+
+    allCards.forEach(card => {
+        const title = card.dataset.title || '';
+        const description = card.dataset.description || '';
+
+        const matches = title.includes(searchTerm) || description.includes(searchTerm);
+        card.style.display = matches ? 'block' : 'none';
+    });
+});
+
+
+
+
+
+
 // creating cards
 let foodtype = document.querySelectorAll(".food-type");
 let heading = document.getElementById("heading");
@@ -78,7 +101,11 @@ foodtype.forEach((food, index) => {
         product.items.forEach((p) => {
           console.log(p);
           return (document.getElementById("cards-container").innerHTML += `
-            <div class= "card-container" id="card-${p?.id}">
+  <div class="card-container" 
+       data-title="${p?.title.toLowerCase()}" 
+       data-description="${p?.description.toLowerCase()}" 
+       id="card-${p?.id}">
+
                
                <div class="card-img-container" id="card-img-container"> 
                 <img src= ${p?.image} alt= "" id="card-img"/>
